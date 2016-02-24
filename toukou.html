@@ -1,16 +1,26 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
 <html>
 <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <!-- /.website title -->
 <title>Backyard Landing Page</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <!-- CSS Files -->
-<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap.css" rel="stylesheet" media="screen">
 <!-- <link href="css/animate.css" rel="stylesheet" media="screen"> -->
 <link href="css/css-index.css" rel="stylesheet" media="screen">
-<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="css/font-awesome.css" rel="stylesheet">
 <!-- /.contact form -->
+
+<!-- CSS Files -->
+<!-- <link href="css/bootstrap.min.css" rel="stylesheet" media="screen"> -->
+<!-- <link href="css/animate.css" rel="stylesheet" media="screen"> -->
+<!-- <link href="css/css-index.css" rel="stylesheet" media="screen"> -->
+<!-- <link href="css/font-awesome.min.css" rel="stylesheet"> -->
+<!-- /.contact form -->
+	
 	<foem>
 <div id="menu">
 	<nav class="navbar-wrapper navbar-default" role="navigation">
@@ -35,44 +45,48 @@
 </div>
 
 <div id="contact">
-	<div class="contact fullscreen parallax" style="background-image:url('images/woman-642118.jpg');" data-img-width="2000" data-img-height="1334" data-diff="100">
+	<div class="contact fullscreen parallax" style="background-image:url('images/top_image.jpg');" data-img-width="2000" data-img-height="1334" data-diff="100">
 		<div class="overlay">
 			<div class="container">
 				<div class="row contact-row">
 				
-					<!-- /.address and contact -->
-					<!-- <div class="col-sm-5 contact-left wow fadeInUp"> -->
-						<!-- <h2><span class="highlight">Get</span> in touch</h2> -->
-							<!-- <ul class="ul-address"> -->
-							<!-- <li><i class="pe-7s-map-marker"></i>1600 Amphitheatre Parkway, Mountain View</br> -->
-							<!-- California 55000 -->
-							<!-- </li> -->
-							<!-- <li><i class="pe-7s-phone"></i>+1 (123) 456-7890</br> -->
-							<!-- +2 (123) 456-7890 -->
-							<!-- </li> -->
-							<!-- <li><i class="pe-7s-mail"></i><a href="mailto:info@yoursite.com">info@yoursite.com</a></li> -->
-							<!-- <li><i class="pe-7s-look"></i><a href="#">www.yoursite.com</a></li> -->
-							<!-- </ul>	 -->
-								
-					<!-- </div> -->
 					
 					<!-- /.contact form -->
 					<div class="col-sm-7 contact-right">
 						<form method="POST" id="contact-form" class="form-horizontal" action="contactengine.php" onSubmit="alert('Thank you for your feedback!');">
-							<div class="form-group">"namew"
+							<!-- <div class="form-group">
 							<input type="text" name="Name" id="Name" class="form-control wow fadeInUp" placeholder="Name" required/>
+							</div> -->
+							category
+							<select name="category" style="width: 200px"> 
+							<option value="1">〇〇</option> 
+							<option value="2">〇〇</option> 
+							<option value="3" selected>〇〇</option> 
+							<option value="4">〇〇</option> 
+							</select>
+							<div class="form-group">
+							<input type="text" name="Store name" id="Store name" class="form-control wow fadeInUp" placeholder="Store name" required/>
 							</div>
 							<div class="form-group">
-							<input type="text" name="Email" id="Email" class="form-control wow fadeInUp" placeholder="Email" required/>
+							<input type="text" name="location" id="location" class="form-control wow fadeInUp" placeholder="location" required/>
 							</div>
 							<div class="form-group">
-							<input type="text" name="Email" id="Email" class="form-control wow fadeInUp" placeholder="Email" required/>
+							<textarea name="Photo" rows="10" cols="10" id="Photo" class="form-control input-message wow fadeInUp"  placeholder="Photo" required></textarea>
 							</div>
+							<!-- <tr>
+							  <td align="right"><b>学年：</b></td>
+							    <td> -->
+							      <input type="radio" name="gakunen" value="1">１
+							      <input type="radio" name="gakunen" value="２">２
+							      <input type="radio" name="gakunen" value="３">３
+							      <input type="radio" name="gakunen" value="４">４
+							      <input type="radio" name="gakunen" value="５">５
+							  <!--   </td>
+							  </tr>
+							 -->
+
 							<div class="form-group">
-							<textarea name="Message" rows="10" cols="10" id="Message" class="form-control input-message wow fadeInUp"  placeholder="Message" required></textarea>
-							</div>
-							<div class="form-group">
-							<textarea name="Message" rows="10" cols="10" id="Message" class="form-control input-message wow fadeInUp"  placeholder="Message" required></textarea>
+							<textarea name="comment" rows="10" cols="10" id="comment" class="form-control input-message wow fadeInUp"  placeholder="comment" required></textarea>
 							</div>
 							<!-- <div class="form-group"> -->
 							<div class="col-sm-4 contact-right">
@@ -89,24 +103,7 @@
 	</div>
 </div>
   
-<!-- /.footer -->
-<!-- <footer id="footer">
-	<div class="container">
-		<div class="col-sm-4 col-sm-offset-4">
-			<!-- /.social links -->
-				<!-- <div class="social text-center">
-					<ul>
-						<li><a class="wow fadeInUp" href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
-						<li><a class="wow fadeInUp" href="https://www.facebook.com/" data-wow-delay="0.2s"><i class="fa fa-facebook"></i></a></li>
-						<li><a class="wow fadeInUp" href="https://plus.google.com/" data-wow-delay="0.4s"><i class="fa fa-google-plus"></i></a></li>
-						<li><a class="wow fadeInUp" href="https://instagram.com/" data-wow-delay="0.6s"><i class="fa fa-instagram"></i></a></li>
-					</ul>
-				</div>	 -->
-			<!-- <div class="text-center wow fadeInUp" style="font-size: 14px;">Copyright Backyard 2015 - Template by <a href="http://www.moxdesign.com">MoxDesign</a></div>
-			<a href="#" class="scrollToTop"><i class="pe-7s-up-arrow pe-va"></i></a>
-		</div>	
-	</div>	
-</footer> -->
+
 	 
 	<!-- /.javascript files -->
     <script src="js/jquery.js"></script>
