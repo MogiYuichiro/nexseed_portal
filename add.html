@@ -59,7 +59,7 @@
 							</div> -->
 							<div class="form-group">
 							<select name="category" style="width: 665px"> 
-							<option value="1">〇〇</option> 
+							<option value="1">カテゴリ</option> 
 							<option value="2">〇〇</option> 
 							<option value="3">〇〇</option> 
 							<option value="4">〇〇</option> 
@@ -78,10 +78,12 @@
 				             <input type="file" name="photo" class="form-control" style="width: 665px">
 				            <!-- </div> -->
 				          </div>
+				          </form>
 							<!-- <tr>
 							  <td align="right"><b>学年：</b></td>
 							    <td> -->
-							    	
+							    	<!-- <form id=""> -->
+							    <span>評価</span>
 							      <input type="radio" name="gakunen" value="1">１
 							      <input type="radio" name="gakunen" value="２">２
 							      <input type="radio" name="gakunen" value="３">３
@@ -91,7 +93,7 @@
 							  <!--   </td>
 							  </tr>
 							 -->
-
+							<form method="POST" id="contact-form" class="form-horizontal" action="contactengine.php" onSubmit="alert('Thank you for your feedback!');">
 							<div class="form-group">
 							<textarea name="comment" rows="10" cols="10" id="comment" class="form-control input-message wow fadeInUp"  placeholder="comment" required></textarea>
 							</div>
